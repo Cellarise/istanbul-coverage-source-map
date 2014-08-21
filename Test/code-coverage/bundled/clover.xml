@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1408625967906" clover="3.2.0">
+	<project timestamp="1408625967906"  name="All Files" >
+		<metrics statements="11"  coveredstatements="8"  conditionals="2"  coveredconditionals="1"  methods="3"  coveredmethods="1"  elements="16"  coveredelements="10"  complexity="0"  packages="1"  files="2"  classes="2"  loc="17"  ncloc="17" />
+		<package name="non-bundled" >
+			<metrics statements="11"  coveredstatements="8"  conditionals="2"  coveredconditionals="1"  methods="3"  coveredmethods="1" />
+			<file name="non-bundled-file-1.js"  path="C:\bamboo\SRC\131073\CELLARISE-MDISTCSM-JOB1\Test\resources\non-bundled\non-bundled-file-1.js" >
+				<metrics statements="4"  coveredstatements="4"  conditionals="0"  coveredconditionals="0"  methods="1"  coveredmethods="1" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="4"  count="8"  type="stmt" />
+				<line num="6"  count="1"  type="stmt" />
+			</file>
+			<file name="non-bundled-file-2.js"  path="C:\bamboo\SRC\131073\CELLARISE-MDISTCSM-JOB1\Test\resources\non-bundled\non-bundled-file-2.js" >
+				<metrics statements="7"  coveredstatements="4"  conditionals="2"  coveredconditionals="1"  methods="2"  coveredmethods="0" />
+				<line num="2"  count="1"  type="stmt" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="4"  count="0"  type="stmt" />
+				<line num="5"  count="0"  type="stmt" />
+				<line num="8"  count="1"  type="cond"  truecount="1"  falsecount="1" />
+				<line num="9"  count="1"  type="stmt" />
+				<line num="11"  count="0"  type="stmt" />
+			</file>
+		</package>
+	</project>
+</coverage>

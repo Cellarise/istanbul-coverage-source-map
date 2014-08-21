@@ -1,0 +1,36 @@
+{
+  "author": "John Barry",
+  "name": "istanbul-coverage-source-map",
+  "description": "An istanbul tool to translate the coverage object for bundled scripts using their source map.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cellarise/istanbul-coverage-source-map.git"
+  },
+  "config": {
+    "build": "4",
+    "buildTimestamp": "2014-08-21T22:57:59.396+10:00",
+    "adminEmail": "admin@cellarise.com"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "source-map-closest-match": "^0.1.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "yadda": "^0.10.14",
+    "gulp": "^3.8.6",
+    "gulp-load": "^0.1.1",
+    "run-sequence": "^0.3.6",
+    "gulp-mocha": "^0.5.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-concat": "^2.3.4",
+    "jsdoc-to-markdown": "^0.5.4",
+    "gulp-jsdoc-to-markdown": "^0.1.3",
+    "gulp-dust-compile-render": "^0.1.0",
+    "webpack": "^1.3.3-beta2",
+    "gulp-util": "^3.0.0",
+    "glob": "^4.0.5",
+    "cucumber": "^0.4.2"
+  }
+}

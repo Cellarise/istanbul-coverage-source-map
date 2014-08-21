@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2014-08-21T12:59:27.937Z",
+    "end": "2014-08-21T12:59:27.940Z",
+    "duration": 3
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "Coverage: index.js",
+      "fullTitle": "Coverage: C:\\bamboo\\SRC\\131073\\CELLARISE-MDISTCSM-JOB1\\lib\\index.js",
+      "duration": 0
+    }
+  ],
+  "skipped": []
+}
