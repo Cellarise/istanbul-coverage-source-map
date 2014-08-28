@@ -4,6 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var gulp = require('gulp');
 var tap = require('gulp-tap');
+var assert = require('assert');
 var English = require('yadda').localisation.English;
 var webpack = require("webpack");
 var gutil = require("gulp-util");
@@ -26,8 +27,8 @@ module.exports = (function() {
         .define("Given I have non-bundled Javascript files", function(done) {
             this.world.non_bundled_file_1 = path.join(__dirname, '../resources/non-bundled/non-bundled-file-1');
             this.world.non_bundled_file_2 = path.join(__dirname, '../resources/non-bundled/non-bundled-file-2');
-            this.assert(fs.existsSync(this.world.non_bundled_file_1 + '.js'));
-            this.assert(fs.existsSync(this.world.non_bundled_file_2 + '.js'));
+            assert(fs.existsSync(this.world.non_bundled_file_1 + '.js'));
+            assert(fs.existsSync(this.world.non_bundled_file_2 + '.js'));
             done();
         })
         .define("When I run coverage report on the files", function(done) {
@@ -83,7 +84,7 @@ module.exports = (function() {
             }
             expected = JSON.stringify(expected);
             actual = JSON.stringify(actual);
-            this.assert.equal(actual, expected);
+            assert.equal(actual, expected);
             done();
         })/*Scenario: Code coverage report with source maps */
         .define("Given I have a bundled Javascript file", function(done) {
@@ -100,7 +101,7 @@ module.exports = (function() {
                     colors: true
                 }));
                 self.world.template = path.join(__dirname, '../resources/bundled');
-                self.assert(fs.existsSync(self.world.template + '.js'));
+                assert(fs.existsSync(self.world.template + '.js'));
                 done();
             });
         })

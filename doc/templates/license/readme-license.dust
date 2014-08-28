@@ -1,0 +1,9 @@
+# License
+
+{~lb}license{~rb}
+
+Copyright (c) 2014 {~lb}author{~rb}
+
+## Dependencies
+{#licenses}[{name}]({repository}) - {.license}, {/licenses}
+*documented by [npm-licenses](http://github.com/AceMetrix/npm-license.git)*.

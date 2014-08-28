@@ -1,11 +1,3 @@
-# istanbul-coverage-source-map
-[![view on npm](http://img.shields.io/npm/v/istanbul-coverage-source-map.svg)](https://www.npmjs.org/package/istanbul-coverage-source-map)
-[![npm module downloads per month](http://img.shields.io/npm/dm/istanbul-coverage-source-map.svg)](https://www.npmjs.org/package/istanbul-coverage-source-map)
-[![Dependency Status](https://david-dm.org/Cellarise/istanbul-coverage-source-map.svg)](https://david-dm.org/Cellarise/istanbul-coverage-source-map)
-
-> An istanbul tool to translate the coverage object for bundled scripts using their source map.
-
-
 ##Usage 
 
 Get the coverage object after tests have been performed and then translate using this module. The example, below is based on using a gulp task runner for istanbul - gulp-istanbul-custom-reports.  
@@ -14,7 +6,7 @@ Get the coverage object after tests have been performed and then translate using
 var istanbul = require('gulp-istanbul-custom-reports');
 var COVERAGE_VARIABLE = '$$1cov_' + new Date().getTime() + '$$';
 var covObj;
-var istanbulCoverageSourceMap = require('istanbul-coverage-source-map');
+var istanbulCoverageSourceMap = require('{name}');
 var sourceFiles = 'lib/bundled/**/*.js'
 
 gulp.src(sourceFiles)
@@ -43,16 +35,3 @@ gulp.src(sourceFiles)
             });
     });
 ```
-
-
-
-# API
-{{>main}}
-*documented by [jsdoc-to-markdown](https://github.com/75lb/jsdoc-to-markdown)*.
-
-
-# License
-
-MIT License (MIT)
-
-Copyright (c) 2014 John Barry

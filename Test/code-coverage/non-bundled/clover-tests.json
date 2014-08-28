@@ -1,19 +1,49 @@
 {
   "stats": {
-    "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "suites": 6,
+    "tests": 6,
+    "passes": 2,
     "pending": 0,
-    "failures": 0,
-    "start": "2014-08-21T12:59:27.937Z",
-    "end": "2014-08-21T12:59:27.940Z",
-    "duration": 3
+    "failures": 4,
+    "start": "2014-08-22T14:38:32.215Z",
+    "end": "2014-08-22T14:38:32.219Z",
+    "duration": 4
   },
-  "failures": [],
+  "failures": [
+    {
+      "title": "Coverage: non-bundled-file-2.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\Test\\resources\\non-bundled\\non-bundled-file-2.js",
+      "duration": 0,
+      "error": "Insufficient branch coverage: actual=50% required=60% (branches covered = 1 total branches = 2)\n"
+    },
+    {
+      "title": "Coverage: clover-limits.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\lib\\clover-limits.js",
+      "duration": 0,
+      "error": "Insufficient statement coverage: actual=25% required=50% (statements covered = 28 total statements = 113)\nInsufficient branch coverage: actual=26% required=60% (branches covered = 9 total branches = 35)\nInsufficient function coverage: actual=4% required=50% (functions covered = 1 total functions = 25)"
+    },
+    {
+      "title": "Coverage: defaults.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\lib\\defaults.js",
+      "duration": 0,
+      "error": "Insufficient statement coverage: actual=45% required=50% (statements covered = 9 total statements = 20)\nInsufficient branch coverage: actual=36% required=60% (branches covered = 4 total branches = 11)\nInsufficient function coverage: actual=0% required=50% (functions covered = 0 total functions = 5)"
+    },
+    {
+      "title": "Coverage: file-writer.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\lib\\util\\file-writer.js",
+      "duration": 0,
+      "error": "Insufficient statement coverage: actual=32% required=50% (statements covered = 20 total statements = 62)\nInsufficient branch coverage: actual=0% required=60% (branches covered = 0 total branches = 6)\nInsufficient function coverage: actual=9% required=50% (functions covered = 2 total functions = 23)"
+    }
+  ],
   "passes": [
     {
-      "title": "Coverage: index.js",
-      "fullTitle": "Coverage: C:\\bamboo\\SRC\\131073\\CELLARISE-MDISTCSM-JOB1\\lib\\index.js",
+      "title": "Coverage: non-bundled-file-1.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\Test\\resources\\non-bundled\\non-bundled-file-1.js",
+      "duration": 0
+    },
+    {
+      "title": "Coverage: writer.js",
+      "fullTitle": "Coverage: C:\\Atlassian\\NPM\\istanbul-coverage-source-map\\lib\\util\\writer.js",
       "duration": 0
     }
   ],

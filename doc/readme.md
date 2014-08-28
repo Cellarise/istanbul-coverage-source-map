@@ -1,9 +1,9 @@
-# {name}
-[![view on npm](http://img.shields.io/npm/v/{name}.svg)](https://www.npmjs.org/package/{name})
-[![npm module downloads per month](http://img.shields.io/npm/dm/{name}.svg)](https://www.npmjs.org/package/{name})
-[![Dependency Status](https://david-dm.org/Cellarise/{name}.svg)](https://david-dm.org/Cellarise/{name})
+# istanbul-coverage-source-map
+[![view on npm](http://img.shields.io/npm/v/istanbul-coverage-source-map.svg)](https://www.npmjs.org/package/istanbul-coverage-source-map)
+[![npm module downloads per month](http://img.shields.io/npm/dm/istanbul-coverage-source-map.svg)](https://www.npmjs.org/package/istanbul-coverage-source-map)
+[![Dependency Status](https://david-dm.org/Cellarise/istanbul-coverage-source-map.svg)](https://david-dm.org/Cellarise/istanbul-coverage-source-map)
 
-> {description}
+> An istanbul tool to translate the coverage object for bundled scripts using their source map.
 
 
 ##Usage 
@@ -14,7 +14,7 @@ Get the coverage object after tests have been performed and then translate using
 var istanbul = require('gulp-istanbul-custom-reports');
 var COVERAGE_VARIABLE = '$$1cov_' + new Date().getTime() + '$$';
 var covObj;
-var istanbulCoverageSourceMap = require('{name}');
+var istanbulCoverageSourceMap = require('istanbul-coverage-source-map');
 var sourceFiles = 'lib/bundled/**/*.js'
 
 gulp.src(sourceFiles)
@@ -47,7 +47,7 @@ gulp.src(sourceFiles)
 
 
 # API
-{~lb}{~lb}>main{~rb}{~rb}
+{{>main}}
 *documented by [jsdoc-to-markdown](https://github.com/75lb/jsdoc-to-markdown)*.
 
 
@@ -55,4 +55,8 @@ gulp.src(sourceFiles)
 
 MIT License (MIT)
 
-Copyright (c) 2014 {author}
+Copyright (c) 2014 John Barry
+
+## Dependencies
+[amdefine@0.1.0](&quot;https://github.com/jrburke/amdefine&quot;) - [&quot;BSD&quot;,&quot;MIT&quot;], [istanbul-coverage-source-map@0.0.0](&quot;https://github.com/Cellarise/istanbul-coverage-source-map&quot;) - &quot;MIT License (MIT)&quot;, [source-map-closest-match@0.1.0](&quot;https://github.com/Cellarise/source-map-closest-match&quot;) - [&quot;BSD&quot;], 
+*documented by [npm-licenses](http://github.com/AceMetrix/npm-license.git)*.

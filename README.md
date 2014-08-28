@@ -59,10 +59,10 @@ An istanbul tool to translate the coverage object for bundled scripts using thei
   - \[sourceMaps\] `Object` - an object array of source-map file mappings.
 If not provided the module will look for a source map in the same directory as the covered source file with the suffix `.map`.
 Object array example,
- {
-     "./file1.js": "./file1.js.map",
-     "./file2.js": "./maps/file2.js.map"
- }  
+{
+"./file1.js": "./file1.js.map",
+"./file2.js": "./maps/file2.js.map"
+}  
 
 **Type**: `name`  
 
@@ -74,3 +74,7 @@ Object array example,
 MIT License (MIT)
 
 Copyright (c) 2014 John Barry
+
+## Dependencies
+[amdefine@0.1.0](&quot;https://github.com/jrburke/amdefine&quot;) - [&quot;BSD&quot;,&quot;MIT&quot;], [istanbul-coverage-source-map@0.0.0](&quot;https://github.com/Cellarise/istanbul-coverage-source-map&quot;) - &quot;MIT License (MIT)&quot;, [source-map-closest-match@0.1.0](&quot;https://github.com/Cellarise/source-map-closest-match&quot;) - [&quot;BSD&quot;], 
+*documented by [npm-licenses](http://github.com/AceMetrix/npm-license.git)*.
